@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1528410007 source:c:\users\bruno\desktop\ufgd\exercicios de programação\projetolabii_labirinto\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1530299863 source:c:\users\nb\desktop\projetolabii_labirinto\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
