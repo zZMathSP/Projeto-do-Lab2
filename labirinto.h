@@ -1,0 +1,11 @@
+typedef struct controle CON;
+typedef struct Ponto2D P2D;
+char **alocar_labirinto (int linha, int coluna);
+void desalocar_labirinto (char ***labirinto_1, int linha, int coluna);
+void recebe_labirinto(char **matriz);
+int analise_vitorialocal (char **labirinto_1, int linha, int coluna);
+void movimento (char **matriz, int *linha, int *coluna);
+void analise_local (char **matriz, int *xc, int *yc);
+void imprimelabirinto (char **labirinto, int linha, int coluna);
+void ler_labirinto(char **labirinto, int coluna);
+void ler_dimensao(int *linha, int *coluna);

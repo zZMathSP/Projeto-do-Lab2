@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1530573359 source:c:\users\bruno\desktop\ufgd\exercicios de programação\labiiprojetofinal_labirinto_definitovo\labirinto.c
+	<stdio.h>
+	<stdlib.h>
+	"labirinto.h"
+
+1530573351 source:c:\users\bruno\desktop\ufgd\exercicios de programação\labiiprojetofinal_labirinto_definitovo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"labirinto.h"
+
+1530573351 c:\users\bruno\desktop\ufgd\exercicios de programação\labiiprojetofinal_labirinto_definitovo\labirinto.h
+
+1530647460 source:c:\users\04857281171\desktop\labiiprojetofinal_labirinto_definitovo\labirinto.c
+	<stdio.h>
+	<stdlib.h>
+	"labirinto.h"
+
+1530643412 c:\users\04857281171\desktop\labiiprojetofinal_labirinto_definitovo\labirinto.h
+
+1530646602 source:c:\users\04857281171\desktop\labiiprojetofinal_labirinto_definitovo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"labirinto.h"
+
