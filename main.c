@@ -38,7 +38,6 @@ int main()
     getchar();
     system("cls");
 
-
     }
     printf("nn");
 
