@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <windows.h>
 #include "labirinto.h"
+#include "pilha.h"
 
 int main()
 {
@@ -16,6 +17,7 @@ int main()
     printf("coluna: ");
     scanf("%d", &coluna);
     labirinto = alocar_labirinto(linha,coluna);
+
     //recebe_labirinto(labirinto);
     ler_labirinto(labirinto, coluna);
     while(vitoria){

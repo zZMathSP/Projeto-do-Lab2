@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "labirinto.h"
+#include "pilha.h"
 
 //registro
 struct controle {
@@ -9,6 +10,7 @@ struct controle {
     int tamanho;
 
 };
+
 struct Ponto2D {
 
     int coordenada_x_linha;
@@ -27,6 +29,7 @@ char **alocar_labirinto (int linha, int coluna){
     return labirinto_1;
 
 }
+
 void desalocar_labirinto (char ***labirinto_1, int linha, int coluna){
 
     int i;
@@ -35,6 +38,7 @@ void desalocar_labirinto (char ***labirinto_1, int linha, int coluna){
     free((*labirinto_1));
 
 }
+
 void recebe_labirinto (char**matriz){
 
     int i,j;
@@ -56,6 +60,7 @@ void recebe_labirinto (char**matriz){
     }
 
 }
+
 void imprimelabirinto (char **labirinto, int linha, int coluna){
 
     int i,j;
@@ -95,9 +100,10 @@ int analise_vitorialocal (char **labirinto_1, int linha, int coluna){
     }
     return 1;
 }
+
 void analise_local (char **matriz, int *xc, int *yc){
 
-    int i,j, verificar;
+    int i, j, verificar;
 
     for(i=0;i<10;i++){
         for(j=0;j<20;j++){
@@ -113,6 +119,7 @@ void analise_local (char **matriz, int *xc, int *yc){
 
 
 }
+
 void movimento (char **matriz, int *linha, int *coluna){
 
     if(matriz[*linha+1][*coluna] == '0' && (*linha+1 > 0 && *linha+1 < 10)){
@@ -150,6 +157,7 @@ void ler_dimensao (int *linha, int *coluna){
 
 
 }
+
 void ler_labirinto (char **labirinto, int coluna){
 
     FILE *arquivo;
@@ -174,8 +182,6 @@ void ler_labirinto (char **labirinto, int coluna){
      fclose(arquivo);
 
 }
-
-
 //funções da pilha
 CON *criar_lista (void){
 
@@ -185,6 +191,7 @@ CON *criar_lista (void){
 
         return ptr;
 }
+
 void insere_final(CON *lista, int coodernada_x, int coodernada_y){
 
         if(lista->cabeca == NULL){
@@ -209,3 +216,6 @@ void insere_final(CON *lista, int coodernada_x, int coodernada_y){
 
 
 }
+
+
+

@@ -25,16 +25,27 @@
 	<windows.h>
 	"labirinto.h"
 
-1530647462 source:c:\users\nb\desktop\trabalho do adailton\trunk\labirinto.c
+1530666097 source:c:\users\nb\desktop\trabalho do adailton\trunk\labirinto.c
 	<stdio.h>
 	<stdlib.h>
 	"labirinto.h"
+	"pilha.h"
 
 1530643414 c:\users\nb\desktop\trabalho do adailton\trunk\labirinto.h
 
-1530646604 source:c:\users\nb\desktop\trabalho do adailton\trunk\main.c
+1530666097 source:c:\users\nb\desktop\trabalho do adailton\trunk\main.c
 	<stdio.h>
 	<stdlib.h>
 	<windows.h>
 	"labirinto.h"
+	"pilha.h"
+
+1530666056 c:\users\nb\desktop\trabalho do adailton\trunk\pilha.h
+	<stdio.h>
+	<stdlib.h>
+
+1530666607 source:c:\users\nb\desktop\trabalho do adailton\trunk\pilha.c
+	<stdio.h>
+	<stdlib.h>
+	"pilha.h"
 
