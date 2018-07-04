@@ -12,6 +12,16 @@ int main()
     int cx,cy;
     //=============================
 
+    node *PILHA = (node *) malloc(sizeof(node));
+
+    if(!PILHA)
+    {
+        printf("Sem memoria disponivel!\n");
+        exit(1);
+    }inicia(PILHA);
+
+
+
     printf("Dimensao labirinto \nlinha: ");
     scanf("%d", &linha);
     printf("coluna: ");
